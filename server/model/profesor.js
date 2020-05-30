@@ -46,15 +46,16 @@ let profesorSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "Calendario"
             // Autogenerado al crear el profesor ( se crea limpio)
-    },
+    },*/
     alumnos: {
         type: [Schema.Types.ObjectId],
         ref: "Alumno"
     },
-    cursos: {
-        type: [Schema.Types.ObjectId],
-        ref: "Curso"
-    }*/
+    /*
+        cursos: {
+            type: [Schema.Types.ObjectId],
+            ref: "Curso"
+        }*/
 
 });
 
